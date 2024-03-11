@@ -1,25 +1,25 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
     font-family:'Madimi One',sans-serif;
 }
 body{
     color:black;
-	background-image:url('E:/Temperature Converter/media/Background-Img.jpg');
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-attachment:fixed; 
+    background-image:url('E:/Temperature Converter/media/Background-Img.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed; 
 }
 .container{
-	background-color:#d8ddd8b9;
+    background-color:#d8ddd8b9;
     height:500px;
     width:500px;
     margin:auto;
-	margin-top:90px;
-	text-align:center;
-	padding:10px 0;
-	border-radius:6px;
+    margin-top:90px;
+    text-align:center;
+    padding:10px 0;
+    border-radius:6px;
 }
 .heading{
     font-size:35px;
