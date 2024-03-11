@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Madimi One',sans-serif;
+}
+body{
+    color:black;
+	background-image:url('E:/Temperature Converter/media/Background-Img.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed; 
+}
+.container{
+	background-color:#d8ddd8b9;
+    height:500px;
+    width:500px;
+    margin:auto;
+	margin-top:90px;
+	text-align:center;
+	padding:10px 0;
+	border-radius:6px;
+}
+.heading{
+    font-size:35px;
+    color:black;
+    padding:20px 0;
+}
+.temp-form p{
+    font-size:22px;
+    padding:10px 0;
+}
+.temp-form input{
+    border:0;
+    font-size:18px;
+    border-radius:6px;
+    color:white;
+    background:black;
+    width:60%;
+    padding:10px;
+	text-align:center;
+}
+#degreevalue{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 20px;
+}
+#degreevalue span select{
+    width:auto;
+    border:none;
+    font-size:18px;
+    border-radius:8px;
+    color:white;
+    background:black;
+    padding:10px;
+    cursor:pointer;
+}
+.btn{
+    padding:10px;
+    display:flex;
+}
+.btn input:hover{
+	transition:1s;
+	background-color:red;
+	color:white;
+}
+.btn input{
+    font-size:18px;
+    background-color:#ddd;
+    cursor:grab;
+    border-radius:6px;
+	margin:0 20px;
+	color:black;
+}
+ i{
+	font-size:40px;
+	margin-top:20px;
+}
+.temp-result #result{
+    text-align:center;
+}
+.temp-result #result-value{
+    color:white;
+    width:60%;
+	text-align:center;
+    cursor:default;
+}
+
