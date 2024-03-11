@@ -5,7 +5,6 @@
     font-family:'Madimi One',sans-serif;
 }
 body{
-    color:black;
     background-image:url('E:/Temperature Converter/media/Background-Img.jpg');
     background-repeat:no-repeat;
     background-size:cover;
@@ -23,14 +22,13 @@ body{
 }
 .heading{
     font-size:35px;
-    color:black;
     padding:20px 0;
-	letter-spacing:4px;
+    letter-spacing:4px;
 }
 .temp-form p{
     font-size:22px;
     padding:10px 0;
-	letter-spacing:3px;
+    letter-spacing:3px;
 }
 .temp-form input{
     border:0;
@@ -40,7 +38,7 @@ body{
     background:black;
     width:60%;
     padding:10px;
-	text-align:center;
+    text-align:center;
 }
 #degreevalue{
     display:flex;
@@ -51,7 +49,7 @@ body{
     width:auto;
     border:none;
     font-size:18px;
-	letter-spacing:2px;
+    letter-spacing:2px;
     border-radius:8px;
     color:white;
     background:black;
@@ -63,22 +61,22 @@ body{
     display:flex;
 }
 .btn input:hover{
-	transition:1s;
-	background-color:red;
-	color:white;
+    transition:1s;
+    background-color:red;
+    color:white;
 }
 .btn input{
     font-size:18px;
-	letter-spacing:2px;
+    letter-spacing:2px;
     background-color:#ddd;
     cursor:grab;
     border-radius:6px;
-	margin:0 20px;
-	color:black;
+    margin:0 20px;
+    color:black;
 }
 i{
-	font-size:40px;
-	margin-top:20px;
+    font-size:40px;
+    margin-top:20px;
 }
 .temp-result #result{
     text-align:center;
@@ -86,7 +84,7 @@ i{
 .temp-result #result-value{
     color:white;
     width:60%;
-	text-align:center;
+    text-align:center;
     cursor:default;
 }
 
